@@ -281,7 +281,7 @@ The playbook implements the following tasks:
 - To set this value permanently, update the vm.max_map_count setting in /etc/sysctl.conf.
 - Ansible sysctl
 
-![alt text](XXXXXXXXXX)
+![alt text](Ansible/Images/published_ports.png)
 
 - published_ports: Configures the container to start with the following port mappings:
 - 5601:5601
@@ -292,7 +292,7 @@ The playbook implements the following tasks:
 - 9200 (Elasticsearch JSON interface)
 - 5044 (Logstash Beats interface, receive logs from Beats such as Filebeat)
 
-![alt text](XXXXXXXXXX)
+![alt text](Ansible/Images/docker_container_module.png)
 
 - restart_policy: Always starts the container sebp/elk:761
 
