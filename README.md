@@ -331,20 +331,8 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 
 ## Bonus 
-### Provide the specific commands the user will need to run to download the playbook & configuration files:
+### Provide the specific commands the user will need to run to download the playbook, update the files, etc.:
 
-1. To download ansible hosts:
+1. To download metricbeat playbook: ansible-playbook metricbeat-playbook.yml
 
-2. To set-up Web VMs with docker:
-
-3. To download config file for ansible:
-
-4. To download ELK playbook for installing ELK to ELK VM:
-
-5. To download metricbeat configuration file:
-
-6. To download filebeat configuration file:
-
-7. To download metricbeat playbook:
-
-8. To download filebeat playbook:
+3. To download filebeat playbook: ansible-playbook filebeat-playbook.yml
