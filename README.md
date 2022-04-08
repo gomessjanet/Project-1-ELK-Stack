@@ -197,7 +197,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 
 What aspect of security do load balancers protect? 
-- The load balancer provides and externa IP address accessible through the Internet. When the load balancer receives external traffic from the internet into the website, the load balancer systematically distributes the traffic across multiple servers and mitigate DoS attack. The health probe function in the load balancer detects issues with machines, reports them to the load balancer, hence the load balancer stops the traffic to faulty machines and manages with the available machines.
+- The load balancer provides and external IP address accessible through the Internet. When the load balancer receives external traffic from the internet into the website, the load balancer systematically distributes the traffic across multiple servers and mitigate DoS attack. The health probe function in the load balancer detects issues with machines, reports them to the load balancer, hence the load balancer stops the traffic to faulty machines and manages with the available machines.
 
 What is the advantage of a jump box?
 - A couple advantages of a jumpbox are:
