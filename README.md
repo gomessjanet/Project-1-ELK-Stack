@@ -71,7 +71,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
       pip:
         name: docker
         state: present
-
+ 
+      # Use command module
+    - name: Increase virtual memory
+      command: sysctl -w vm.max_map_count=262144
+      
       # Use sysctl module
     - name: Use more memory
       sysctl:
