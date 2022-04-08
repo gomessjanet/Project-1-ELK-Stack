@@ -268,13 +268,13 @@ The playbook implements the following tasks:
 - Install pip module: Installs docker pip package, which is required by Ansible, for controlling the state of docker containers.
 - Other tasks that do the following:
 
-![alt text](XXXXXXX)
+![alt text](Ansible/Images/increase_virtual_memory.png)
 
 - Increase virtual memory: Set the 'vm.max_map_count' to '262144'
 - This is a system requirement for the ELK container.
 - This configures the machine being configured, the target VM, to use more memory. The ELK container will not run without this setting.
 
-![alt text](Ansible/Images/increase_virtual_memory.png)
+![alt text](Ansible/Images/config_memory_requirement.png)
 
 - The Ansible 'sysctl' module is used to configure the memory requirement such as this setting is automatically run if your VM has been restarted.
 - The most common reason that the 'ELK' container does not run, is caused by this settiing being incorrect.
