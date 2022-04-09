@@ -337,6 +337,6 @@ Which URL do you navigate to in order to check that the ELK server is running?
 ## Bonus 
 ### Provide the specific commands the user will need to run to download the playbook, update the files, etc.:
 
-1. To download metricbeat playbook: ansible-playbook metricbeat-playbook.yml
+1. To download metricbeat playbook (in Linux): ansible-playbook metricbeat-playbook.yml
 
-3. To download filebeat playbook: ansible-playbook filebeat-playbook.yml
+3. To download filebeat playbook (in Linux): ansible-playbook filebeat-playbook.yml
