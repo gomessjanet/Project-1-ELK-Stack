@@ -280,7 +280,7 @@ The playbook implements the following tasks:
 
 ![alt text](Ansible/Images/config_memory_requirement.png)
 
-- The Ansible 'sysctl' module is used to configure the memory requirement such as this setting is automatically run if your VM has been restarted.
+- The Ansible 'sysctl' module is used to configure the memory requirement, such as this setting is automatically run if your VM has been restarted.
 - The most common reason that the 'ELK' container does not run, is caused by this settiing being incorrect.
 - To set this value permanently, update the vm.max_map_count setting in /etc/sysctl.conf.
 - Ansible sysctl
