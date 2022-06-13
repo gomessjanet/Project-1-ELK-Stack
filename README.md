@@ -1,5 +1,5 @@
-# Project-1-ELK-Stack
-### Week 13 - Cloud Security: Automated ELK Stack Deployment
+# Cloud Security - DVWA Deployment with ELK & Ansible
+### Cloud Security: Automated ELK Stack Deployment
 
 
 The files in this repository were used to configure the network depicted below.  
